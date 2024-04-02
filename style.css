@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.side-bar{
+    height: 100vh;
+    width: calc(100vw/3);
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    overflow-y:hidden;
+    overflow-x: hidden;
+}
+
+.side-bar .side-bar-items .side-bar-icons .logo{
+    margin: 10px;
+}
+
+
+
+.side-bar .side-bar-items .side-bar-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-bar-icons .icons{
+     margin-top: 7%;
+}
+
+.icons .home{
+    font-weight: 800;
+}
+
+.side-bar-icons .icons img{
+    width: 25px;
+    height: 25px;
+}
+
+.side-bar .logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.side-bar .logo img:hover{
+    background-color: #cccc;
+    border-radius: 100%;
+}
+
+.side-bar-items span{
+    display: flex;
+    padding: 15px;
+    
+}
+
+.side-bar-items span:hover{
+    cursor: pointer;
+    background-color: #cccc;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+}
+
+.side-bar-items i{
+    padding-right: 10px;
+}
+
+.side-bar .account img{
+    margin-top: 30px;
+}
+
+.side-bar .account{
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar-items .account img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.account .user-profile > p{
+    color: #d0d0d0;
+}
+
+.account:last-child strong{
+    font-weight: 800;
+}
+
+
+.side-bar .account:hover{
+    cursor: pointer;
+}
+
+.button{
+    margin: 30px;
+}
+
+.button button{
+    width: 200px;
+    height: 50px;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border: none;
+    background-color: rgba(29, 155, 240);
+}
+
+.button button:hover{
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+
+
