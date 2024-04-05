@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+
+.right-side-bar{
+    height: 100vh;
+    /* width: 500px; */
+    width: calc(100vw / 3vw);
+    /* border-left: solid 1px grey; */
+    position: fixed;
+    right: 0;
+    overflow-x: hidden;
+}
+
+.search-section{
+    display: flex;
+    margin: 20px 20px;
+}
+
+.search-section .search-icon{
+    padding-right: 10px;
+    background-color: #cccc;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+
+}
+
+.search-icon:hover{
+    cursor: pointer;
+}
+
+.search-icon i{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.search-section .input input{
+    border: none;
+    height: 100%;
+    background-color: #cccc;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    width: 27vw;
+}
+
+
+
+.subscribe-section{
+    margin: 5%;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: rgb(247, 247, 247);
+    height: 25%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.subscribe-section:hover{
+    background-color: #cccc;
+}
+
+.subscribe-section .premium h2{
+    margin-bottom: 15px;
+}
+
+.subscribe-section .premium p{
+    line-height: 20px;
+}
+
+.subscribe-section .button{
+    margin-top: 15px;
+}
+
+.subscribe-section .button button{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 50%;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+}
+
+.subscribe-section button:hover{
+    cursor: pointer;
+    color: #d0d0d0;
+}
+
+
+
+
+.trends-section{
+    margin: 5%;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: rgb(247, 247, 247);
+    height: 130vh;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.trends-section h2{
+    padding-top: 2%;
+}
+
+.trends-section span p:first-child{
+    padding-top: 5%;
+    color: grey;
+}
+
+.trends-section span p:last-child{
+    color: grey;
+}
+
+.trends-section span h4:last-child{
+    display: flex;
+    align-items: center;
+    padding-top: 7%;
+    color: rgb(29, 155, 240);
+}
+
+.trends-section span i{
+    padding-right: 2%;
+}
+
+.trends-section div:hover{
+    cursor: pointer;
+    background-color: #cccc;
+}
+
+
+.who-to-follow-section{
+    margin: 5%;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: rgb(247, 247, 247);
+    height: 45%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.who-to-follow-section .first-follow-section:hover{
+    cursor: pointer;
+    background-color: #cccc;
+}
+
+.who-to-follow-section .second-follow-section:hover{
+    cursor: pointer;
+    background-color: #cccc;
+}
+
+.who-to-follow-section .third-follow-section:hover{
+    cursor: pointer;
+    background-color: #cccc;
+}
+
+.who-to-follow-section >h4 {
+    padding-top: 5%;
+    
+}
+
+
+.who-to-follow-section .profile-description{
+    padding-bottom: 0.9%;
+}
+
+.who-to-follow-section i{
+    padding-right: 10px;
+}
+
+
+.who-to-follow-section .follow-button{
+    padding-left: 20px;
+}
+
+.who-to-follow-section button{
+    border: none;
+    height: 40px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+}
+
+.first-follow-section .profiles{
+    display:flex;
+    padding-top: 3%;
+}
+
+.second-follow-section .profiles{
+    display:flex;
+    padding-top: 5%;
+}
+
+.third-follow-section .profiles{
+    display:flex;
+    padding-top: 5%;
+}
+
+
+.who-to-follow-section span:hover{
+    cursor: pointer;
+}
+
+.who-to-follow-section button:hover{
+    cursor: pointer;
+    color: #cccc;
+}
+
+.who-to-follow-section .profile-description h4:hover{
+    text-decoration: underline;
+}
+.show-more h4{
+    display: flex;
+    align-items: center;
+    padding-top: 7%;
+    padding-left: 1%;
+    color: rgb(29, 155, 240);
+}
+
+.show-more span i{
+    padding-right: 2%;
+}
+
+.footer-section{
+    margin-left: 3.5%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px grey;
+}
+
+.footer-section span{
+    color: grey;
+}
+.footer-section .first-span-section{
+    padding-bottom: 2%;
+}
+
+.footer-section .first-span-section span{
+    padding-right: 3%;
+}
+
+.footer-section .second-span-section .material{
+    display: flex;
+    padding-top: 2%;
+}
+
+.footer-section span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

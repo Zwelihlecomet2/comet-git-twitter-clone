@@ -10,13 +10,14 @@
 
 .side-bar{
     height: 100vh;
-    width: calc(100vw/3);
+    width: calc(100vw / 3vw);
     background-color: white;
     color: black;
     font-family: 'Poppins', sans-serif;
     position: fixed;
     overflow-y:hidden;
     overflow-x: hidden;
+    /* border-right: solid 1px grey; */
 }
 
 .side-bar .side-bar-items .side-bar-icons .logo{
