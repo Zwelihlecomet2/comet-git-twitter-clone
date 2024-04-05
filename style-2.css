@@ -216,14 +216,32 @@ body{
     padding-top: 3%;
 }
 
+.first-follow-section .profile-picture img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
 .second-follow-section .profiles{
     display:flex;
     padding-top: 5%;
 }
 
+.second-follow-section .profile-picture img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
 .third-follow-section .profiles{
     display:flex;
     padding-top: 5%;
+}
+
+.third-follow-section .profile-picture img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
 }
 
 
