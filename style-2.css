@@ -108,11 +108,116 @@ body{
     padding-left: 15px;
     padding-top: 10px;
     background-color: rgb(247, 247, 247);
-    height: 137vh;
+    height: 127vh;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
+}
+
+.trends-section .first-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trends-section .first-span i{
+    margin-right: 10px;
+}
+
+.trends-section .second-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trends-section .second-span i{
+    margin-right: 10px;
+}
+
+.trends-section .third-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trends-section .third-span i{
+    margin-right: 10px;
+}
+
+.trends-section .fourth-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trends-section .fourth-span i{
+    margin-right: 10px;
+}
+
+.trends-section .fifth-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trends-section .fifth-span i{
+    margin-right: 10px;
+}
+
+.trends-section .sixth-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trends-section .sixth-span i{
+    margin-right: 10px;
+}
+
+.trends-section .seventh-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trends-section .seventh-span i{
+    margin-right: 10px;
+}
+
+.trends-section .eighth-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trends-section .eighth-span i{
+    margin-right: 10px;
+}
+
+.trends-section .nineth-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trends-section .nineth-span i{
+    margin-right: 10px;
+}
+
+.trends-section .tenth-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trends-section .tenth-span i{
+    margin-right: 10px;
+}
+
+.trends-section i:hover{
+    background-color: rgb(29, 155, 240);
+    border-radius: 50%;
 }
 
 #sinaye{
@@ -142,8 +247,12 @@ body{
     color: rgb(29, 155, 240);
 }
 
+.trends-section span h4:hover{
+    cursor: pointer;
+}
+
 .trends-section span i{
-    padding-right: 2%;
+    margin: 2%;
 }
 
 .trends-section div:hover{
@@ -249,6 +358,7 @@ body{
     cursor: pointer;
 }
 
+
 .who-to-follow-section button:hover{
     cursor: pointer;
     color: #cccc;
@@ -257,6 +367,8 @@ body{
 .who-to-follow-section .profile-description h4:hover{
     text-decoration: underline;
 }
+
+
 .show-more h4{
     display: flex;
     align-items: center;

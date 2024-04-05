@@ -7,7 +7,7 @@
 .posts{
     background-color: black;
     color: black;
-    width: calc(100vw / 1.489);
+    width: calc(100vw / 1.499);
     height: 500vh;
     overflow-x: hidden;
 }
