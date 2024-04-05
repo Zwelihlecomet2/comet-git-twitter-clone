@@ -114,7 +114,7 @@
     border-bottom-right-radius: 9999px;
     border-top-left-radius: 9999px;
     border: none;
-    background-color: rgba(29, 155, 240);
+    background-color: rgb(29, 155, 240);
 }
 
 .button button:hover{

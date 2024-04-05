@@ -108,13 +108,20 @@ body{
     padding-left: 15px;
     padding-top: 10px;
     background-color: rgb(247, 247, 247);
-    height: 130vh;
+    height: 137vh;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 }
 
+#sinaye{
+    color: rgb(29, 155, 240);
+}
+
+#sinaye:hover{
+    text-decoration:underline;
+}
 .trends-section h2{
     padding-top: 2%;
 }
@@ -143,6 +150,7 @@ body{
     cursor: pointer;
     background-color: #cccc;
 }
+
 
 
 .who-to-follow-section{
