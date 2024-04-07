@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "E:/Twitter-Clone"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Comet-git-twitter-clone"
+	}
+}
